@@ -17,3 +17,5 @@ RUN apk update \
 CMD ["nginx"]
 
 EXPOSE 80 443
+
+VOLUME ["/etc/nginx/sites-enabled"]
